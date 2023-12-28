@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 237, 251);
+}
+header{
+    background-color: rgba(255, 0, 64, 0.295);
+    padding: 1rem;
+    text-align: center;
+    color: rgb(102, 0, 26);
+    text-shadow: 0.1rem 0.11rem 0.1rem rgba(97, 97, 97, 0.4);
+    font-family: sitka, viner-hand-itc;
+}
+.interior{
+    width: 40rem;
+    margin: 0 auto; 
+}
+article h3{
+    font-size: 24px ;
+    color:  rgb(102, 0, 26) ;
+}
+article h4{
+    color:  rgb(102, 0, 26) ;
+    padding-left: 1rem;
+}
+
+section article{
+    transition: box-shadow 1s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.35rem;
+    padding: 0.75rem;
+    text-align: justify;
+}
+
+section article h3, section article p{
+    padding: 0.75rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.384);
+}
+
+article a{
+    transition: box-shadow 1s ease;
+    text-decoration: none;
+    color:brown;
+    font-size: 16px;
+    background-color: rgba(255, 191, 207, 0.295);
+    padding: 4px;
+    border: 1px rgb(75, 75, 75) groove;
+}
+article a:hover{
+    background-color:  rgba(255, 191, 207, 0.692);
+    color:rgb(109, 11, 11);
+    box-shadow: 0.2rem 0.35rem 0.5rem rgba(0,0,0, 0.50);
+}
+footer{
+    background-color: rgba(255, 0, 64, 0.295);
+    padding: 3rem ;
+    padding-bottom: 3.5rem;
+    margin-top: 8rem;
+    color:white;
+}
+footer section{
+    float: right;
+}
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(199, 199, 199);
+}
